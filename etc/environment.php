@@ -43,7 +43,7 @@
 				// explicit themes; themes can also just be embeded in modules,
 				// in which case there's no need for them to appear here.
 
-				'arpeggio' => $syspath.'themes/arpeggio/',
+				'black-glyph-magic' => $syspath.'themes/black-glyph-magic/',
 			),
 
 	); # config
