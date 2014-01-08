@@ -1,0 +1,14 @@
+{
+	"interface": "1.1.0",
+
+	"cores": [
+		{
+			"repo": "https://github.com/twbs/bootstrap.git",
+			"path": "src/vendor/twbs",
+			"version": "v3.0.0",
+			"keep": ["js", "README.md", "LICENSE"],
+			"remove": ["js/tests", "js/.jshintrc"]
+		}
+	]
+
+}
