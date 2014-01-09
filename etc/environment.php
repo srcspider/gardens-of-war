@@ -4,7 +4,10 @@
 
 		'modules' => array
 			(
-
+				$modpath.'core' => 'gardensofwar\core',
+				$modpath.'api.v1' => 'gardensofwar\api\v1',
+				$modpath.'mjolnir' => 'gardensofwar\mjolnir',
+			
 			// ---- Plugins ---------------------------------------------------
 
 				// no plugins
@@ -19,7 +22,6 @@
 
 				// mjolnir modules
 				$vdrpath.'mjolnir/access'     => 'mjolnir\access',
-				$vdrpath.'mjolnir/accounting' => 'mjolnir\accounting',
 				$vdrpath.'mjolnir/base'       => 'mjolnir\base',
 				$vdrpath.'mjolnir/foundation' => 'mjolnir\foundation',
 				$vdrpath.'mjolnir/html'       => 'mjolnir\html',
